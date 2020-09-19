@@ -14,6 +14,8 @@ public class HomePage extends TestBase {
     WebElement moreServicesBtn;
     @FindBy(className = "brand")
     WebElement logo;
+    @FindBy(id = "feedback")
+    WebElement feedbackLink;
 
     // Initializing page objects
     public HomePage(){
@@ -35,5 +37,10 @@ public class HomePage extends TestBase {
     public LoginPage clickSignin(){
         signinBtn.click();
         return new LoginPage();
+    }
+
+    public FeedbackPage clickFeedbackLink(){
+        feedbackLink.click();
+        return new FeedbackPage();
     }
 }

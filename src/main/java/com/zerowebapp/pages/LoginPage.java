@@ -1,4 +1,7 @@
 package com.zerowebapp.pages;
 
-public class LoginPage {
+import com.zerowebapp.base.TestBase;
+
+public class LoginPage extends TestBase {
+
 }

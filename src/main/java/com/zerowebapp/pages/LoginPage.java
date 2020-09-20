@@ -1,7 +1,6 @@
 package com.zerowebapp.pages;
 
 import com.zerowebapp.base.TestBase;
-import org.apache.maven.plugin.logging.Log;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

@@ -33,6 +33,7 @@ public class TestBase {
         String path = System.getProperty("user.dir");
         if(browserName.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/drivers/chromedriver");
+            // allow to run test in chrome headless in Jenkins
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--headless");
             driver = new ChromeDriver(chromeOptions);

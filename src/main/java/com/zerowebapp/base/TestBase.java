@@ -32,7 +32,10 @@ public class TestBase {
         String path = System.getProperty("user.dir");
         if(browserName.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", path + "/src/main/resources/drivers/chromedriver");
-            driver = new ChromeDriver();
+            // run chrome headless in Jenkins
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.addArguments("--headless");
+            driver = new ChromeDriver(chromeOptions);
         }
         if(browserName.equalsIgnoreCase("firefox")){
             System.setProperty("webdriver.gecko.driver", path + "/src/main/resources/drivers/geckodriver");

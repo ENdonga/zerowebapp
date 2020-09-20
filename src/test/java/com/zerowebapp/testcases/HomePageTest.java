@@ -32,18 +32,18 @@ public class HomePageTest extends TestBase {
         Assert.assertEquals(homePage.validateHomePageTitle(), "Zero - Personal Banking - Loans - Credit Cards");
     }
 
-    @Test
-    public void homepageLogoTest() {
-        Assert.assertTrue(homePage.validateLogo());
-    }
-
-    @Test
-    public void homepageSearchBoxTest() {
-        Assert.assertTrue(homePage.validateSearchBox());
-    }
-
-    @Test
-    public void clickSigninTest() {
-        loginPage = homePage.clickSignin();
-    }
+//    @Test
+//    public void homepageLogoTest() {
+//        Assert.assertTrue(homePage.validateLogo());
+//    }
+//
+//    @Test
+//    public void homepageSearchBoxTest() {
+//        Assert.assertTrue(homePage.validateSearchBox());
+//    }
+//
+//    @Test
+//    public void clickSigninTest() {
+//        loginPage = homePage.clickSignin();
+//    }
 }

@@ -4,8 +4,8 @@
     <test name="ZeroWebApp Test Cases">
         <classes>
             <class name="com.zerowebapp.testcases.HomePageTest"/>
-            <class name="com.zerowebapp.testcases.FeedbackTest"/>
-            <class name="com.zerowebapp.testcases.LoginPageTest"/>
+<!--             <class name="com.zerowebapp.testcases.FeedbackTest"/>
+            <class name="com.zerowebapp.testcases.LoginPageTest"/> -->
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
